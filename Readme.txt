@@ -6,4 +6,4 @@ Author: BootstrapMade.com
 License: https://bootstrapmade.com/license/
 
 
-Récupéré depuis Hostinger le 02/01/2025. Sur le Legion.
+Récupéré depuis GitHub le 15/01/2025. Sur le Legion.
