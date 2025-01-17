@@ -8,3 +8,4 @@ License: https://bootstrapmade.com/license/
 
 Récupéré depuis GitHub le 15/01/2025. Sur le Legion.
 Mettre en place le formulaire de contact et le captcha.
+Penser à faire git pull avant de travailler sur le projet.
