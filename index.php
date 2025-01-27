@@ -1,3 +1,30 @@
+<?php
+session_start(); // Démarre la session
+use Controller\Mail;
+
+require 'vendor/autoload.php';
+
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+  
+  if (isset($_POST['email']) && !empty($_POST['email']) && 
+  isset($_POST['nom']) && !empty($_POST['nom']) &&
+  isset($_POST['objet']) && !empty($_POST['objet']) &&
+  isset($_POST['message']) && !empty($_POST['message'])
+  ) {
+    $mail = new Mail($_POST['email'], $_POST['nom'], $_POST['objet'], $_POST['message']);
+    $resp = $mail->send();
+    $_SESSION['mail_status'] = $resp ? 'success' : 'error'; // Enregistrer le résultat dans $_SESSION
+    $_SESSION['mail_message'] = $resp ? 'Votre message a bien été envoyé' : 'Une erreur est survenue, veuillez réessayer.';
+
+    $class = $resp ? 'succes':'danger';
+    $info = $resp ? 'Mail envoyé avec succes':'Mail non envoyé !!';
+
+    header("Location: " . $_SERVER['REQUEST_URI']);
+    exit();
+  }
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -36,6 +63,10 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+
+  <!-- SweetAlert2 CSS -->
+<link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.5.1/dist/sweetalert2.min.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -70,13 +101,13 @@
       <p><span class="typed"
           data-typed-items="Développeur Web, Développeur Web et Web Mobile, Développeur HTML/CSS, Développeur JavaScript, Développeur Symfony/PHP "></span>
       </p>
-      <div class="social-links">
-        <a target="_blank" href="https://github.com/GuillaumeReb" class="githyb"><i class="bi bi-github"></i></a>
+      <!-- <div class="social-links">
+        <a target="_blank" href="https://github.com/GuillaumeReb" class="githyb"><i class="bi bi-github"></i></a> -->
         <!-- <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
         <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
         <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a> -->
         <!-- <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a> -->
-      </div>
+      <!-- </div> -->
     </div>
   </section><!-- End Hero -->
 
@@ -116,6 +147,8 @@
                   <li><i class="bi bi-chevron-right"></i> <strong>Mobile:</strong> <span>06 58 99 27 51</span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>Ville:</strong> <span>Villefranche Sur Saône</span>
                   </li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>GitHub:</strong> <span><a target="_blank" href="https://github.com/GuillaumeReb"><i class="bi bi-github"></i></a></span>
+                  </li>
                 </ul>
               </div>
               <div class="col-lg-6">
@@ -148,16 +181,16 @@
 
 
         <!--bouton de message pop up-->
-        <div class="position-relative m-5">
+        <!-- <div class="position-relative m-5"> -->
           <!-- Button trigger modal enveloppe avec le message -->
           <!-- <button type="button"
             class="btn btn-primary btn-lg btn position-absolute top-50 start-50 translate-middle bi bi-envelope-exclamation fs-1"
             data-bs-toggle="modal" data-bs-target="#staticBackdrop">
             
           </button> -->
-        </div>
+        <!-- </div> -->
         <!-- Modal -->
-        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        <!-- <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
           aria-labelledby="staticBackdropLabel" aria-hidden="true">
           <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
@@ -178,7 +211,7 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
 
         <!--Fin du message-->
 
@@ -348,6 +381,7 @@
             <h3 class="resume-title">Formation</h3>
             <div class="resume-item pb-0">
               <h4>AFPA</h4>
+              <h5>2023 - 2024</h5>
               <p><em>Diplômé en développement Web, j'ai suivi une formation complète couvrant tous les aspects du
                   développement web.
                   De la conception front-end à la gestion de bases de données back-end, j'ai acquis une maîtrise d'une
@@ -379,25 +413,32 @@
             <h3 class="resume-title">Diplômes</h3>
             <div class="resume-item">
               <h4>Titre Professionnel (Niveau 5) Développeur web et web mobile</h4>
-              <h5>2023 - 2024</h5>
+              <h5>2024</h5>
               <p><em></em></p>
               <p></p>
             </div>
             <div class="resume-item">
               <h4>Baccalauréat Professionnel Accueil et Services</h4>
-              <h5>2000 - 2002</h5>
+              <h5>2002</h5>
               <p><em>Villefranche-Sur-Saône</em></p>
               <p></p>
             </div>
             <div class="resume-item">
               <h4>Brevet d'études Professionnel Vente</h4>
-              <h5>1998 - 2000</h5>
+              <h5>2000</h5>
               <p><em>Villefranche-Sur-Saône</em></p>
               <p></p>
             </div>
           </div>
           <div class="col-lg-6">
             <h3 class="resume-title">Expérience Professionnelle</h3>
+
+            <div class="resume-item">
+              <h4>SmartBooster</h4>
+              <h5>2024</h5>
+              <p><em>Villefranche-Sur-Saône</em></p>
+            </div>
+
             <div class="resume-item">
               <h4>Ouverture d'un restaurant à Hua Hin</h4>
               <h5>2021 - 2023</h5>
@@ -824,21 +865,22 @@
 
           <div class="col-lg-4">
             <div class="info">
+              
               <div class="address">
                 <i class="bi bi-geo-alt"></i>
-                <h4>Adresse:</h4>
+                <h4>Adresse :</h4>
                 <p>Villefranche-Sur-Saône</p>
               </div>
 
               <div class="email">
                 <i class="bi bi-envelope"></i>
-                <h4>Email:</h4>
+                <h4>Email :</h4>
                 <p><a href="mailto:guillaume.rebourgeon@hotmail.fr">guillaume.rebourgeon@hotmail.fr</a></p>
               </div>
 
               <div class="phone">
                 <i class="bi bi-phone"></i>
-                <h4>Mobile:</h4>
+                <h4>Mobile :</h4>
                 <p>06 58 99 27 51</p>
               </div>
 
@@ -854,7 +896,7 @@
 
           <div class="col-lg-8 mt-5 mt-lg-0">
 
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form action="/" method="post" role="form" class="php-email-form">
               <div class="row">
                 <div class="col-md-6 form-group">
                   <input type="text" name="nom" class="form-control" id="name" placeholder="Votre Nom" required>
@@ -868,14 +910,23 @@
               </div>
               <div class="form-group mt-3">
                 <textarea class="form-control"
-                  style="background-image: url(./assets/img/en-construction.jpg); background-size: 250px; background-repeat: no-repeat;text-align: center;"
-                  name="message" rows="5" placeholder="Message : en construction" required></textarea>
+                  name="message" rows="5" placeholder="Message :....." required></textarea>
               </div>
-              <div class="my-3">
+              <!-- <div class="my-3">
                 <div class="loading">Loading</div>
                 <div class="error-message"></div>
                 <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div> -->
+
+              <div class="my-3">
+                  <?php if (isset($class)): ?>
+                      <div class="<?php echo $class; ?>">
+                          <?php echo $info; ?>
+                      </div>
+                  <?php endif; ?>
               </div>
+
+              
               <div class="text-center"><button type="submit">Envoyer</button></div>
             </form>
           </div>
@@ -894,7 +945,7 @@
         <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
         <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
         <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-        <a href="#" class="github"><i class="bi bi-github"></i></a>
+        <a target="_blank" href="https://github.com/GuillaumeReb" class="github"><i class="bi bi-github"></i></a>
         <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
       </div>
       <div class="copyright">
@@ -923,10 +974,28 @@
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/typed.js/typed.umd.js"></script>
   <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <!-- <script src="assets/vendor/php-email-form/validate.js"></script> -->
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <!-- SweetAlert2 JS -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.5.1/dist/sweetalert2.min.js"></script>
+
+
+  <script>
+        // Affichage de SweetAlert après la redirection
+        <?php if (isset($_SESSION['mail_status'])): ?>
+            Swal.fire({
+                title: '<?php echo ($_SESSION['mail_status'] == 'success' ? 'Merci' : 'Erreur'); ?>',
+                text: '<?php echo $_SESSION['mail_message']; ?>',
+                icon: '<?php echo ($_SESSION['mail_status'] == 'success' ? 'success' : 'error'); ?>',
+                confirmButtonText: 'OK'
+            });
+            // Effacer les messages de session après affichage
+            <?php unset($_SESSION['mail_status']); unset($_SESSION['mail_message']); ?>
+        <?php endif; ?>
+    </script>
 
 </body>
 
