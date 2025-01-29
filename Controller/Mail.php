@@ -52,7 +52,7 @@ class Mail
             <p><strong>E-mail :</strong> $email</p>
             <p><strong>Nom :</strong> $nom</p>
             <p><strong>Objet :</strong> $objet</p>
-            <p><strong>Message:</strong></p>
+            <p><strong>Message :</strong></p>
             <p>$message</p>
             EOT;
                 $this->mailClass = $mail;                

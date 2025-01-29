@@ -910,7 +910,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
               </div>
               <div class="form-group mt-3">
                 <textarea class="form-control"
-                  name="message" rows="5" placeholder="Message :....." required></textarea>
+                  name="message" rows="5" placeholder="Message : ....." required></textarea>
               </div>
               <!-- <div class="my-3">
                 <div class="loading">Loading</div>
@@ -949,7 +949,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
       </div>
       <div class="copyright">
-        &copy; Copyright <strong><span>MyResume</span></strong>. All Rights Reserved
+        &copy; Copyright <strong><span>MyResume and me</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
