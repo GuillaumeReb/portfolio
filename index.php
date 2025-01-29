@@ -144,19 +144,19 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                   <!-- <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <a
                       href="https://guillaume-rebourgeon.fr/" target="_blank">
                       <span>Mon portfolio</span></a></li>-->
-                  <li><i class="bi bi-chevron-right"></i> <strong>Mobile:</strong> <span>06 58 99 27 51</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Ville:</strong> <span>Villefranche Sur Saône</span>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Mobile :</strong> <span>06 58 99 27 51</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Ville :</strong> <span>Villefranche Sur Saône</span>
                   </li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>GitHub:</strong> <span><a target="_blank" href="https://github.com/GuillaumeReb"><i class="bi bi-github"></i></a></span>
+                  <li><i class="bi bi-chevron-right"></i> <strong>GitHub :</strong> <span><a target="_blank" href="https://github.com/GuillaumeReb"><i class="bi bi-github"></i></a></span>
                   </li>
                 </ul>
               </div>
               <div class="col-lg-6">
                 <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>42</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Age :</strong> <span>42</span></li>
                   <!--<li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Diploma Advanced
                       Technician</span></li>-->
-                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Email :</strong>
                     <span><a href="mailto:guillaume.rebourgeon@hotmail.fr">Guillaume</a></span>
                   </li>
                   <!--<li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>-->
