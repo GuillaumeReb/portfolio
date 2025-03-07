@@ -7,3 +7,5 @@ Remarque : si vous obtenez une erreur indiquant que « php » n'est pas reconnu,
 Pour installer PHPMailer : composer require phpmailer/phpmailer
 
 Avant de transferer ou tester mettre le mot de passe dans Mail.php
+
+Pour le transfert ne pas mettre le dossier Controller.
