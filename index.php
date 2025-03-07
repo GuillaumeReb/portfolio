@@ -324,6 +324,16 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 </div>
               </div>
             </div>
+
+            <div class="progress">
+              <span class="skill">React <i class="val">5% (En cours d'acquisition)</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+
+
           </div>
 
           <div class="col-lg-6">
@@ -359,6 +369,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 </div>
               </div>
             </div>
+
+            
+
+
           </div>
         </div>
       </div>
