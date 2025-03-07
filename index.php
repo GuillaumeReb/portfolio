@@ -506,7 +506,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <div class="section-title">
           <h2>Mes projets</h2>
           <p>Ci-dessous, quelques exemples de réalisations effectuées durant la formation, le stage et plus encore.</p>
-          <p>Mon GitHub : <a target="_blank" href="https://github.com/GuillaumeReb" class="githyb"><i
+          <p><strong>Mon GitHub :</strong> <a target="_blank" href="https://github.com/GuillaumeReb" class="githyb"><i
                 class="bi bi-github"></i></a></p>
         </div>
 
@@ -713,6 +713,22 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                   <!-- Permet d'ouvrir le lien dans une nouvelle page -->
                   <a href="./sdbmSmart/public/" target="_blank"><i class="bx bx-link"></i></a>
                   <a href="./sdbmSmart/public/" class="portfolio-details-lightbox" data-glightbox="type: external"
+                    title="Portfolio Details"><i class="bi bi-eye-fill"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-api">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/FondEcranJSC.svg" class="img-fluid" alt="Carte de visite JS Consultant">
+              <div class="portfolio-info">
+                <h4>JS Consultant</h4>
+                <p>HTML/CSS Bootstrap</p>
+                <div class="portfolio-links">
+                  <!-- Permet d'ouvrir le lien dans une nouvelle page -->
+                  <a href="https://jsconsultant.fr/" target="_blank"><i class="bx bx-link"></i></a>
+                  <a href="https://jsconsultant.fr/" class="portfolio-details-lightbox" data-glightbox="type: external"
                     title="Portfolio Details"><i class="bi bi-eye-fill"></i></a>
                 </div>
               </div>
