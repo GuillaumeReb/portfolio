@@ -153,7 +153,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
               </div>
               <div class="col-lg-6">
                 <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Age :</strong> <span>42</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Age :</strong> <span>43</span></li>
                   <!--<li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Diploma Advanced
                       Technician</span></li>-->
                   <li><i class="bi bi-chevron-right"></i> <strong>Email :</strong>
