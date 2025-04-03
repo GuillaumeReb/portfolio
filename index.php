@@ -504,7 +504,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
       <!--Bouton pour télécharger mon cv-->
       <!--RAJOUTER MON CV mis a jour rajouter la formation AFPA-->
       <div class="position-relative m-5">
-        <a href="./assets/img/CV.pdf" target="_blank">
+        <a href="./assets/img/CV_Developpeur.pdf" target="_blank">
           <button type="button"
             class="bi bi-file-earmark-arrow-down btn position-absolute top-50 start-50 translate-middle fs-4">
             Téléchargez mon CV</button>
