@@ -734,6 +734,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             </div>
           </div>
 
+          <!-- Site de John -->
           <div class="col-lg-4 col-md-6 portfolio-item filter-html">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/FondEcranJSC.svg" class="img-fluid" alt="Carte de visite JS Consultant">
