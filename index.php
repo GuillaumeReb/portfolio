@@ -750,6 +750,23 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             </div>
           </div>
 
+          <!-- React drapeaux -->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-react">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/logo512.png" class="img-fluid" alt="React">
+              <div class="portfolio-info">
+                <h4>Pays</h4>
+                <p>React Bootstrap</p>
+                <div class="portfolio-links">
+                  <!-- Permet d'ouvrir le lien dans une nouvelle page -->
+                  <a href="https://incomparable-biscochitos-8458cd.netlify.app/" target="_blank"><i class="bx bx-link"></i></a>
+                  <a href="https://incomparable-biscochitos-8458cd.netlify.app/" class="portfolio-details-lightbox" data-glightbox="type: external"
+                    title="Portfolio Details"><i class="bi bi-eye-fill"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
 
           <!--<div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
