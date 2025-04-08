@@ -528,17 +528,18 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
           <div class="col-lg-12 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
             <ul id="portfolio-flters">
               <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-api">HTML/CSS</li>
-              <li data-filter=".filter-card">JavaScript</li>
-              <li data-filter=".filter-web">PHP</li>
+              <li data-filter=".filter-html">HTML/CSS</li>
+              <li data-filter=".filter-javascript">JavaScript</li>
+              <li data-filter=".filter-php">PHP</li>
               <li data-filter=".filter-symfony">SYMFONY</li>
+              <li data-filter=".filter-react">REACT</li>
             </ul>
           </div>
         </div>
 
         <div class="row portfolio-container " data-aos="fade-up" data-aos-delay="200">
           <!--Premier galerie attention a la taille des images-->
-          <div class="col-lg-4 col-md-6 portfolio-item filter-api">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-html">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/galerie.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
@@ -571,7 +572,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             </div>
           </div> -->
           <!--Chocoboom-->
-          <div class="col-lg-4 col-md-6 portfolio-item filter-api">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-html">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/choco.png" class="img-fluid" alt="">
               <div class="portfolio-info">
@@ -587,7 +588,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             </div>
           </div>
           <!--Super Avenger-->
-          <div class="col-lg-4 col-md-6 portfolio-item filter-api">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-html">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/avenger.png" class="img-fluid" alt="">
               <div class="portfolio-info">
@@ -603,7 +604,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             </div>
           </div>
           <!--ACDC-->
-          <div class="col-lg-4 col-md-6 portfolio-item filter-api">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-html">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/ac-dc-1.png" class="img-fluid" alt="">
               <div class="portfolio-info">
@@ -619,7 +620,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             </div>
           </div>
           <!-- API Voitures -->
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-javascript">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/alfa2.png" class="img-fluid" alt="">
               <div class="portfolio-info">
@@ -636,7 +637,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
           </div>
 
           <!-- API Voitures et clients npm -->
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-javascript">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/couperVert.png" class="img-fluid" alt="">
               <div class="portfolio-info">
@@ -653,7 +654,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
           </div>
 
           <!-- API Cave -->
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-javascript">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/caveTonneau.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
@@ -669,7 +670,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-php">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/sdbm.png" class="img-fluid" alt="">
               <div class="portfolio-info">
@@ -685,7 +686,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-php">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/formulaire.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
@@ -733,7 +734,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-api">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-html">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/FondEcranJSC.svg" class="img-fluid" alt="Carte de visite JS Consultant">
               <div class="portfolio-info">
