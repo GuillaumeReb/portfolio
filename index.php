@@ -301,7 +301,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             </div>
 
             <div class="progress">
-              <span class="skill">CSS<i class="val">70% (Maîtrisé)</i></span>
+              <span class="skill">CSS<i class="val">70%</i><span class="level">(Maîtrisé)</span></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
                 </div>
@@ -309,7 +309,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             </div>
 
             <div class="progress">
-              <span class="skill">JavaScript<i class="val">50% (En progression)</i></span>
+              <span class="skill">JavaScript<i class="val">50%</i><span class="level">(En progression)</span></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
                 </div>
@@ -317,7 +317,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             </div>
 
             <div class="progress">
-              <span class="skill">Bootstrap<i class="val">65% (En progression)</i></span>
+              <span class="skill">Bootstrap<i class="val">65%</i><span class="level">(En progression)</span></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
                 </div>
@@ -325,7 +325,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             </div>
 
             <div class="progress">
-              <span class="skill">React <i class="val">25% (En cours d'acquisition)</i></span>
+              <span class="skill">React <i class="val">25%</i><span class="level">(En cours d'acquisition)</span></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
                 </div>
@@ -338,7 +338,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
           <div class="col-lg-6">
 
             <div class="progress">
-              <span class="skill">Symfony<i class="val">60% (En progression)</i></span>
+              <span class="skill">Symfony<i class="val">60%</i><span class="level">(En progression)</span></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
                 </div>
@@ -346,7 +346,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             </div>
 
             <div class="progress">
-              <span class="skill">PHP<i class="val">60% (En progression)</i></span>
+              <span class="skill">PHP<i class="val">60%</i><span class="level">(En progression)</span></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
                 </div>
@@ -354,7 +354,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             </div>
 
             <div class="progress">
-              <span class="skill">MySQL <i class="val">45% (En progression)</i></span>
+              <span class="skill">MySQL <i class="val">45%</i><span class="level">(En progression)</span></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100">
                 </div>
@@ -362,7 +362,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             </div>
 
             <div class="progress">
-              <span class="skill">Tailwind CSS<i class="val">50% (En progression)</i></span>
+              <span class="skill">Tailwind CSS<i class="val">50%</i><span class="level">(En progression)</span></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
                 </div>
