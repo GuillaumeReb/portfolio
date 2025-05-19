@@ -291,6 +291,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         </div>
         <div class="row skills-content">
           <div class="col-lg-6">
+            <!-- Colonne de gauche -->
             <!--Penser a changer les valeurs au fur et a mesure que la formation avance-->
             <div class="progress">
               <span class="skill">HTML <i class="val">80%</i><span class="level">(Maîtrisé)</span></span>
@@ -325,9 +326,33 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             </div>
 
             <div class="progress">
-              <span class="skill">React <i class="val">25%</i><span class="level">(En cours d'acquisition)</span></span>
+              <span class="skill">React <i class="val">25%</i><span class="level">(En progression)</span></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Responsive Design<i class="val">70%</i><span class="level">(Maîtrisé)</span></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Autonomie<i class="val">80%</i><span class="level">(Maîtrisé)</span></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Capacité d’analyse<i class="val">75%</i><span class="level">(Maîtrisé)</span></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
                 </div>
               </div>
             </div>
@@ -336,6 +361,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
           </div>
 
           <div class="col-lg-6">
+            <!-- Colonne de droite -->
 
             <div class="progress">
               <span class="skill">Symfony<i class="val">60%</i><span class="level">(En progression)</span></span>
@@ -365,6 +391,38 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
               <span class="skill">Tailwind CSS<i class="val">50%</i><span class="level">(En progression)</span></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">REST API<i class="val">50%</i><span class="level">(En progression)</span></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Tailwind CSS<i class="val">50%</i><span class="level">(En progression)</span></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Git / GitHub<i class="val">70%</i><span class="level">(Maîtrisé)</span></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Visual Studio / VS Code<i class="val">60%</i><span class="level">(Maîtrisé)</span></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
                 </div>
               </div>
             </div>
