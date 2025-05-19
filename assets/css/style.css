@@ -510,6 +510,22 @@ section {
   font-style: normal;
 }
 
+.skills .progress .skill .level {
+  font-style: italic;
+  font-size: 0.9rem;
+  color: #6c757d;
+  /* Gris doux */
+  margin-left: 10px;
+}
+
+@media (max-width: 575.98px) {
+  .skills .progress .skill .level {
+    display: none;
+  }
+}
+
+
+
 .skills .progress-bar-wrap {
   background: #f2f3f5;
 }
