@@ -577,7 +577,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <div class="section-title">
           <h2>Mes projets</h2>
           <p>Ci-dessous, quelques exemples de réalisations effectuées durant la formation, le stage et plus encore.</p>
-          <p><strong>Mon GitHub :</strong> <a target="_blank" href="https://github.com/GuillaumeReb" class="githyb"><i
+          <p><strong>Mon GitHub :</strong> <a target="_blank" href="https://github.com/GuillaumeReb" class="github"><i
                 class="bi bi-github"></i></a></p>
         </div>
 
