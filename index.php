@@ -640,9 +640,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <p>HTML / CSS</p>
                 <div class="portfolio-links">
                   <!-- Permet d'ouvrir le lien dans une nouvelle page -->
-                  <a href="./chocolatboom/index.html" target="_blank"><i class="bx bx-plus"></i></a>
+                  <a href="./chocolatboom/index.html" target="_blank" title="Voir la démo"><i class="bi bi-box-arrow-up-right"></i></a>
                   <a href="./chocolatboom/index.html" class="portfolio-details-lightbox" data-glightbox="type: external"
-                    title="Portfolio Details"><i class="bi bi-eye-fill"></i></a>
+                    title="Aperçu rapide"><i class="bi bi-eye-fill"></i></a>
                 </div>
               </div>
             </div>
@@ -656,9 +656,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <p>HTML / CSS</p>
                 <div class="portfolio-links">
                   <!-- Permet d'ouvrir le lien dans une nouvelle page -->
-                  <a href="./super/index.html" target="_blank"><i class="bx bx-plus"></i></a>
+                  <a href="./super/index.html" target="_blank" title="Voir la démo"><i class="bi bi-box-arrow-up-right"></i></a>
                   <a href="./super/index.html" class="portfolio-details-lightbox" data-glightbox="type: external"
-                    title="Portfolio Details"><i class="bi bi-eye-fill"></i></a>
+                    title="Aperçu rapide"><i class="bi bi-eye-fill"></i></a>
                 </div>
               </div>
             </div>
@@ -672,9 +672,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <p>HTML / CSS</p>
                 <div class="portfolio-links">
                   <!-- Permet d'ouvrir le lien dans une nouvelle page -->
-                  <a href="./acdc/index.html" target="_blank"><i class="bx bx-plus"></i></a>
+                  <a href="./acdc/index.html" target="_blank" title="Voir la démo"><i class="bi bi-box-arrow-up-right"></i></a>
                   <a href="./acdc/index.html" class="portfolio-details-lightbox" data-glightbox="type: external"
-                    title="Portfolio Details"><i class="bi bi-eye-fill"></i></a>
+                    title="Aperçu rapide"><i class="bi bi-eye-fill"></i></a>
                 </div>
               </div>
             </div>
@@ -688,9 +688,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <p>API / JS</p>
                 <div class="portfolio-links">
                   <!-- Permet d'ouvrir le lien dans une nouvelle page -->
-                  <a href="./voitures/index.html" target="_blank"><i class="bx bx-plus"></i></a>
+                  <a href="./voitures/index.html" target="_blank" title="Voir la démo"><i class="bi bi-box-arrow-up-right"></i></a>
                   <a href="./voitures/index.html" class="portfolio-details-lightbox" data-glightbox="type: external"
-                    title="Portfolio Details"><i class="bi bi-eye-fill"></i></a>
+                    title="Aperçu rapide"><i class="bi bi-eye-fill"></i></a>
                 </div>
               </div>
             </div>
@@ -705,9 +705,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <p>API / JS</p>
                 <div class="portfolio-links">
                   <!-- Permet d'ouvrir le lien dans une nouvelle page -->
-                  <a href="./voituresEtClients/index.html" target="_blank"><i class="bx bx-plus"></i></a>
+                  <a href="./voituresEtClients/index.html" target="_blank" title="Voir la démo"><i class="bi bi-box-arrow-up-right"></i></a>
                   <a href="./voituresEtClients/index.html" class="portfolio-details-lightbox"
-                    data-glightbox="type: external" title="Portfolio Details"><i class="bi bi-eye-fill"></i></a>
+                    data-glightbox="type: external" title="Aperçu rapide"><i class="bi bi-eye-fill"></i></a>
                 </div>
               </div>
             </div>
@@ -722,9 +722,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <p>API / JS</p>
                 <div class="portfolio-links">
                   <!-- Permet d'ouvrir le lien dans une nouvelle page -->
-                  <a href="./ProjetCave" target="_blank"><i class="bx bx-plus"></i></a>
+                  <a href="./ProjetCave" target="_blank" title="Voir la démo"><i class="bi bi-box-arrow-up-right"></i></a>
                   <a href="./ProjetCave" class="portfolio-details-lightbox" data-glightbox="type: external"
-                    title="Portfolio Details"><i class="bi bi-eye-fill"></i></a>
+                    title="Aperçu rapide"><i class="bi bi-eye-fill"></i></a>
                 </div>
               </div>
             </div>
@@ -738,9 +738,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <p>PHP</p>
                 <div class="portfolio-links">
                   <!-- Permet d'ouvrir le lien dans une nouvelle page -->
-                  <a href="https://guillaume-rebourgeon.fr/projetSDBM/" target="_blank"><i class="bx bx-link"></i></a>
+                  <a href="https://guillaume-rebourgeon.fr/projetSDBM/" target="_blank" title="Voir la démo"><i class="bi bi-box-arrow-up-right"></i></a>
                   <a href="./projetSDBM" class="portfolio-details-lightbox" data-glightbox="type: external"
-                    title="Portfolio Details"><i class="bi bi-eye-fill"></i></a>
+                    title="Aperçu rapide"><i class="bi bi-eye-fill"></i></a>
                 </div>
               </div>
             </div>
@@ -754,9 +754,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <p>PHP</p>
                 <div class="portfolio-links">
                   <!-- Permet d'ouvrir le lien dans une nouvelle page -->
-                  <a href="./Captcha" target="_blank"><i class="bx bx-link"></i></a>
+                  <a href="./Captcha" target="_blank" title="Voir la démo"><i class="bi bi-box-arrow-up-right"></i></a>
                   <a href="./Captcha" class="portfolio-details-lightbox" data-glightbox="type: external"
-                    title="Portfolio Details"><i class="bi bi-eye-fill"></i></a>
+                    title="Aperçu rapide"><i class="bi bi-eye-fill"></i></a>
                 </div>
               </div>
             </div>
@@ -770,9 +770,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <p>SYMFONY/PHP</p>
                 <div class="portfolio-links">
                   <!-- Permet d'ouvrir le lien dans une nouvelle page -->
-                  <a href="./sdbmSymfony/public/" target="_blank"><i class="bx bx-link"></i></a>
+                  <a href="./sdbmSymfony/public/" target="_blank" title="Voir la démo"><i class="bi bi-box-arrow-up-right"></i></a>
                   <a href="./sdbmSymfony/public/" class="portfolio-details-lightbox" data-glightbox="type: external"
-                    title="Portfolio Details"><i class="bi bi-eye-fill"></i></a>
+                    title="Aperçu rapide"><i class="bi bi-eye-fill"></i></a>
                 </div>
               </div>
             </div>
@@ -786,9 +786,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <p>SYMFONY/EasyAdmin</p>
                 <div class="portfolio-links">
                   <!-- Permet d'ouvrir le lien dans une nouvelle page -->
-                  <a href="./sdbmSmart/public/" target="_blank"><i class="bx bx-link"></i></a>
+                  <a href="./sdbmSmart/public/" target="_blank" title="Voir la démo"><i class="bi bi-box-arrow-up-right"></i></a>
                   <a href="./sdbmSmart/public/" class="portfolio-details-lightbox" data-glightbox="type: external"
-                    title="Portfolio Details"><i class="bi bi-eye-fill"></i></a>
+                    title="Aperçu rapide"><i class="bi bi-eye-fill"></i></a>
                 </div>
               </div>
             </div>
@@ -803,9 +803,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <p>HTML/CSS Bootstrap</p>
                 <div class="portfolio-links">
                   <!-- Permet d'ouvrir le lien dans une nouvelle page -->
-                  <a href="https://jsconsultant.fr/" target="_blank"><i class="bx bx-link"></i></a>
+                  <a href="https://jsconsultant.fr/" target="_blank" title="Voir la démo"><i class="bi bi-box-arrow-up-right"></i></a>
                   <a href="https://jsconsultant.fr/" class="portfolio-details-lightbox" data-glightbox="type: external"
-                    title="Portfolio Details"><i class="bi bi-eye-fill"></i></a>
+                    title="Aperçu rapide"><i class="bi bi-eye-fill"></i></a>
                 </div>
               </div>
             </div>
@@ -820,9 +820,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <p>React Bootstrap</p>
                 <div class="portfolio-links">
                   <!-- Permet d'ouvrir le lien dans une nouvelle page -->
-                  <a href="https://incomparable-biscochitos-8458cd.netlify.app/" target="_blank"><i class="bx bx-link"></i></a>
+                  <a href="https://incomparable-biscochitos-8458cd.netlify.app/" target="_blank" title="Voir la démo"><i class="bi bi-box-arrow-up-right"></i></a>
                   <a href="https://incomparable-biscochitos-8458cd.netlify.app/" class="portfolio-details-lightbox" data-glightbox="type: external"
-                    title="Portfolio Details"><i class="bi bi-eye-fill"></i></a>
+                   title="Aperçu rapide"><i class="bi bi-eye-fill"></i></a>
                 </div>
               </div>
             </div>
