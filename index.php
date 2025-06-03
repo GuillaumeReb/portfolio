@@ -600,13 +600,16 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/galerie.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Galerie</h4>
+                <h4>Galerie des Animaux</h4>
                 <p>HTML CSS</p>
                 <div class="portfolio-links">
                   <!-- Permet d'ouvrir le lien dans une nouvelle page -->
-                  <a href="./galerie/index.html" target="_blank"><i class="bx bx-plus"></i></a>
+                  <a href="./galerie/index.html" target="_blank" title="Voir la démo"><i class="bi bi-box-arrow-up-right"></i></a>
+                    <!-- Aperçu rapide via lightbox -->
                   <a href="./galerie/index.html" class="portfolio-details-lightbox" data-glightbox="type: external"
-                    title="Portfolio Details"><i class="bi bi-eye-fill"></i></a>
+                    title="Aperçu rapide"><i class="bi bi-eye-fill"></i></a>
+                      <!-- GitHub -->
+                  <a href="https://github.com/GuillaumeReb/Galerie-des-animaux" target="_blank" title="Voir le code sur GitHub"><i class="bi bi-github"></i></a>
                 </div>
               </div>
             </div>
