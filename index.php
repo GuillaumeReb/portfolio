@@ -1054,7 +1054,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
         <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
         <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-        <a target="_blank" href="https://github.com/GuillaumeReb" class="github"><i class="bi bi-github"></i></a>
+        <a target="_blank" href="https://github.com/GuillaumeReb" class=""><i class="bi bi-github"></i></a>
         <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
       </div>
       <div class="copyright">
