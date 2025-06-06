@@ -643,6 +643,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                   <a href="./chocolatboom/index.html" target="_blank" title="Voir la démo"><i class="bi bi-box-arrow-up-right"></i></a>
                   <a href="./chocolatboom/index.html" class="portfolio-details-lightbox" data-glightbox="type: external"
                     title="Aperçu rapide"><i class="bi bi-eye-fill"></i></a>
+                     <!-- GitHub -->
+                  <a href="https://github.com/GuillaumeReb/ChocoBoom" target="_blank" title="Voir le code sur GitHub"><i class="bi bi-github"></i></a>
                 </div>
               </div>
             </div>
@@ -675,6 +677,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                   <a href="./acdc/index.html" target="_blank" title="Voir la démo"><i class="bi bi-box-arrow-up-right"></i></a>
                   <a href="./acdc/index.html" class="portfolio-details-lightbox" data-glightbox="type: external"
                     title="Aperçu rapide"><i class="bi bi-eye-fill"></i></a>
+                     <!-- GitHub -->
+                  <a href="https://github.com/GuillaumeReb/AC-DC" target="_blank" title="Voir le code sur GitHub"><i class="bi bi-github"></i></a>
                 </div>
               </div>
             </div>
@@ -806,6 +810,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                   <a href="https://jsconsultant.fr/" target="_blank" title="Voir la démo"><i class="bi bi-box-arrow-up-right"></i></a>
                   <a href="https://jsconsultant.fr/" class="portfolio-details-lightbox" data-glightbox="type: external"
                     title="Aperçu rapide"><i class="bi bi-eye-fill"></i></a>
+                     <!-- GitHub -->
+                  <a href="https://github.com/GuillaumeReb/JS_Consultant" target="_blank" title="Voir le code sur GitHub"><i class="bi bi-github"></i></a>
                 </div>
               </div>
             </div>
