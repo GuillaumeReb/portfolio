@@ -695,6 +695,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                   <a href="./voitures/index.html" target="_blank" title="Voir la démo"><i class="bi bi-box-arrow-up-right"></i></a>
                   <a href="./voitures/index.html" class="portfolio-details-lightbox" data-glightbox="type: external"
                     title="Aperçu rapide"><i class="bi bi-eye-fill"></i></a>
+                     <!-- GitHub -->
+                  <a href="https://github.com/GuillaumeReb/voitures" target="_blank" title="Voir le code sur GitHub"><i class="bi bi-github"></i></a>
                 </div>
               </div>
             </div>
@@ -712,6 +714,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                   <a href="./voituresEtClients/index.html" target="_blank" title="Voir la démo"><i class="bi bi-box-arrow-up-right"></i></a>
                   <a href="./voituresEtClients/index.html" class="portfolio-details-lightbox"
                     data-glightbox="type: external" title="Aperçu rapide"><i class="bi bi-eye-fill"></i></a>
+                     <!-- GitHub -->
+                  <a href="https://github.com/GuillaumeReb/Voitures_Et_Clients" target="_blank" title="Voir le code sur GitHub"><i class="bi bi-github"></i></a>
                 </div>
               </div>
             </div>
@@ -729,6 +733,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                   <a href="./ProjetCave" target="_blank" title="Voir la démo"><i class="bi bi-box-arrow-up-right"></i></a>
                   <a href="./ProjetCave" class="portfolio-details-lightbox" data-glightbox="type: external"
                     title="Aperçu rapide"><i class="bi bi-eye-fill"></i></a>
+                     <!-- GitHub -->
+                  <a href="https://github.com/GuillaumeReb/SiteCaveAVin" target="_blank" title="Voir le code sur GitHub"><i class="bi bi-github"></i></a>
                 </div>
               </div>
             </div>
