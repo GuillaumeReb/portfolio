@@ -832,8 +832,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <p>React Bootstrap</p>
                 <div class="portfolio-links">
                   <!-- Permet d'ouvrir le lien dans une nouvelle page -->
-                  <a href="https://incomparable-biscochitos-8458cd.netlify.app/" target="_blank" title="Voir la démo"><i class="bi bi-box-arrow-up-right"></i></a>
-                  <a href="https://incomparable-biscochitos-8458cd.netlify.app/" class="portfolio-details-lightbox" data-glightbox="type: external"
+                  <a href="https://ephemeral-brigadeiros-5e8298.netlify.app/" target="_blank" title="Voir la démo"><i class="bi bi-box-arrow-up-right"></i></a>
+                  <a href="https://ephemeral-brigadeiros-5e8298.netlify.app/" class="portfolio-details-lightbox" data-glightbox="type: external"
                    title="Aperçu rapide"><i class="bi bi-eye-fill"></i></a>
                 </div>
               </div>
