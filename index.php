@@ -1063,11 +1063,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
       <h3>Guillaume Rebourgeon</h3>
       <p>Merci d'avoir pris le temps de découvrir mon site web, n'hésitez pas à laisser un message. À bientôt.</p>
       <div class="social-links">
-        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <!-- <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
         <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-        <a target="_blank" href="https://github.com/GuillaumeReb" class=""><i class="bi bi-github"></i></a>
-        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        <a href="#" target="_blank" class="instagram"><i class="bx bxl-instagram"></i></a> -->
+        <a href="https://github.com/GuillaumeReb" target="_blank" class=""><i class="bi bi-github"></i></a>
+        <a href="https://www.linkedin.com/in/guillaume-rebourgeon-5231a330b" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
       </div>
       <div class="copyright">
         &copy; Copyright <strong><span>MyResume and me</span></strong>. All Rights Reserved
