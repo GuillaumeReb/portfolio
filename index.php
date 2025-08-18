@@ -835,6 +835,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                   <a href="https://ephemeral-brigadeiros-5e8298.netlify.app/" target="_blank" title="Voir la démo"><i class="bi bi-box-arrow-up-right"></i></a>
                   <a href="https://ephemeral-brigadeiros-5e8298.netlify.app/" class="portfolio-details-lightbox" data-glightbox="type: external"
                    title="Aperçu rapide"><i class="bi bi-eye-fill"></i></a>
+                    <!-- GitHub -->
+                  <a href="https://github.com/GuillaumeReb/First_React" target="_blank" title="Voir le code sur GitHub"><i class="bi bi-github"></i></a>
+                
                 </div>
               </div>
             </div>
