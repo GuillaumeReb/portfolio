@@ -843,6 +843,26 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             </div>
           </div>
 
+          <!-- MoviesChoice -->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-symfony">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/popCorn.jpg" class="img-fluid" alt="pop corn">
+              <div class="portfolio-info">
+                <h4>MoviesChoice</h4>
+                <p>Symfony</p>
+                <div class="portfolio-links">
+                  <!-- Permet d'ouvrir le lien dans une nouvelle page -->
+                  <a href="./movie/public/" target="_blank" title="Voir la démo"><i class="bi bi-box-arrow-up-right"></i></a>
+                  <a href="./movie/public/" class="portfolio-details-lightbox" data-glightbox="type: external"
+                   title="Aperçu rapide"><i class="bi bi-eye-fill"></i></a>
+                    <!-- GitHub -->
+                  <a href="https://github.com/GuillaumeReb/MoviesChoice" target="_blank" title="Voir le code sur GitHub"><i class="bi bi-github"></i></a>
+                
+                </div>
+              </div>
+            </div>
+          </div>
+
 
           <!--<div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
