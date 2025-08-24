@@ -292,7 +292,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <div class="skills-content">
       <div class="skill-category">
         <h5 class="category-title">Frontend</h5>
-        <p class="skills-list">HTML5, CSS3, JavaScript ES6+, React, Bootstrap, Tailwind CSS, Responsive Design</p>
+        <p class="skills-list">HTML5, CSS3, JavaScript, Twig, Bootstrap, Tailwind CSS, Responsive Design</p>
       </div>
 
       <div class="skill-category">
@@ -302,7 +302,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
       <div class="skill-category">
         <h5 class="category-title">Outils & Workflow</h5>
-        <p class="skills-list">Git, GitHub, VS Code, NPM, DevTools</p>
+        <p class="skills-list">Git, GitHub, VS Code, Composer, Doctrine</p>
       </div>
 
       <div class="skill-category">
@@ -324,7 +324,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             d'autant plus lorsque l'on s'investit, que l'on est curieux et passionné.
           </p>
         </div>
-        <!--Rajouter la possibilité de télécharger mon cv en pdf-->
+        
         <div class="row">
           <div class="col-lg-6">
             <h3 class="resume-title">Formation</h3>

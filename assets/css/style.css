@@ -550,7 +550,16 @@ section {
   padding: 1.5rem;
   background: rgba(255, 255, 255, 0.05);
   border-radius: 8px;
-  border-left: 4px solid #149ddd; /* Utilisez votre couleur principale */
+  border-left: 4px solid #0563bb; /* Utilise couleur principale */
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.skill-category:hover {
+  transform: scale(1.05);
+  background: rgba(255, 255, 255, 0.08);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  border-left-width: 6px;
 }
 
 .skill-category:last-child {
@@ -558,7 +567,7 @@ section {
 }
 
 .category-title {
-  color: #149ddd; /* Utilisez votre couleur principale */
+  color: #0563bb; /* Utilise couleur principale */
   font-size: 1.2rem;
   font-weight: 600;
   margin-bottom: 0.8rem;
@@ -569,7 +578,7 @@ section {
 .skills-list {
   font-size: 1rem;
   line-height: 1.6;
-  color: #666; /* Adaptez selon votre thème */
+  /* color: #666; */
   margin: 0;
 }
 
