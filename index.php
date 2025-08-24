@@ -277,163 +277,41 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <br>
     <br>
     <br>
+    
     <!-- ======= Skills Section ======= -->
-    <section id="skills" class="skills section-bg">
-      <div class="container" data-aos="fade-up">
+<section id="skills" class="skills section-bg">
+  <div class="container" data-aos="fade-up">
 
-        <div class="section-title">
-          <h2>Skills</h2>
+    <div class="section-title">
+      <h2>Skills</h2>
+      <br>
+      <h4>Grâce à ma formation intensive de Développeur Web et Web Mobile et à mes expériences antérieures, j'ai développé une solide autonomie, une grande polyvalence, ainsi qu'une maîtrise des outils numériques et des environnements techniques variés. Voici un aperçu de mes compétences :</h4>
+      <br>
+    </div>
 
-          <br>
-
-          <h4>Grâce à ma formation intensive de Développeur Web et Web Mobile et à mes expériences antérieures, j’ai développé une solide autonomie, une grande polyvalence, ainsi qu’une maîtrise des outils numériques et des environnements techniques variés. Voici un aperçu de mes compétences :</h4>
-          <br>
-        </div>
-        <div class="row skills-content">
-          <div class="col-lg-6">
-            <!-- Colonne de gauche -->
-            <!--Penser a changer les valeurs au fur et a mesure que la formation avance-->
-            <div class="progress">
-              <span class="skill">HTML <i class="val">80%</i><span class="level">(Maîtrisé)</span></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">CSS<i class="val">70%</i><span class="level">(Maîtrisé)</span></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">JavaScript<i class="val">50%</i><span class="level">(En progression)</span></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">Bootstrap<i class="val">65%</i><span class="level">(En progression)</span></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">React <i class="val">25%</i><span class="level">(En progression)</span></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">Responsive Design<i class="val">70%</i><span class="level">(Maîtrisé)</span></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">Autonomie<i class="val">80%</i><span class="level">(Maîtrisé)</span></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">Capacité d’analyse<i class="val">75%</i><span class="level">(Maîtrisé)</span></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-
-
-          </div>
-
-          <div class="col-lg-6">
-            <!-- Colonne de droite -->
-
-            <div class="progress">
-              <span class="skill">Symfony<i class="val">60%</i><span class="level">(En progression)</span></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">PHP<i class="val">60%</i><span class="level">(En progression)</span></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">MySQL <i class="val">45%</i><span class="level">(En progression)</span></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">Tailwind CSS<i class="val">50%</i><span class="level">(En progression)</span></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">REST API<i class="val">50%</i><span class="level">(En progression)</span></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">Tailwind CSS<i class="val">50%</i><span class="level">(En progression)</span></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">Git / GitHub<i class="val">70%</i><span class="level">(Maîtrisé)</span></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">Visual Studio / VS Code<i class="val">60%</i><span class="level">(Maîtrisé)</span></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-
-            
-
-
-          </div>
-        </div>
+    <div class="skills-content">
+      <div class="skill-category">
+        <h5 class="category-title">Frontend</h5>
+        <p class="skills-list">HTML5, CSS3, JavaScript ES6+, React, Bootstrap, Tailwind CSS, Responsive Design</p>
       </div>
-    </section><!-- End Skills Section -->
+
+      <div class="skill-category">
+        <h5 class="category-title">Backend</h5>
+        <p class="skills-list">PHP, Symfony, MySQL, REST API, JSON</p>
+      </div>
+
+      <div class="skill-category">
+        <h5 class="category-title">Outils & Workflow</h5>
+        <p class="skills-list">Git, GitHub, VS Code, NPM, DevTools</p>
+      </div>
+
+      <div class="skill-category">
+        <h5 class="category-title">Soft Skills</h5>
+        <p class="skills-list">Autonomie, Capacité d'analyse, Résolution de problèmes, Veille technologique</p>
+      </div>
+    </div>
+  </div>
+</section><!-- End Skills Section -->
 
     <!-- ======= Resume Section ======= -->
     <section id="resume" class="resume">

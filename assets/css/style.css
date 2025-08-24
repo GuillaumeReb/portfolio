@@ -480,9 +480,9 @@ section {
 # Akills
 --------------------------------------------------------------*/
 .skills {
-  padding-top: 150px;
+  padding-top: 50px;
 
-  padding-bottom: 250px;
+  padding-bottom: 50px;
 }
 
 
@@ -535,6 +535,58 @@ section {
   height: 10px;
   transition: 0.9s;
   background-color: #0563bb;
+}
+
+/* SKILL V2 */
+
+/* Styles pour la nouvelle section Skills */
+.skills-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.skill-category {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  border-left: 4px solid #149ddd; /* Utilisez votre couleur principale */
+}
+
+.skill-category:last-child {
+  margin-bottom: 0;
+}
+
+.category-title {
+  color: #149ddd; /* Utilisez votre couleur principale */
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.skills-list {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #666; /* Adaptez selon votre thème */
+  margin: 0;
+}
+
+/* Version responsive */
+@media (max-width: 768px) {
+  .skill-category {
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .category-title {
+    font-size: 1.1rem;
+  }
+  
+  .skills-list {
+    font-size: 0.95rem;
+  }
 }
 
 /*--------------------------------------------------------------
