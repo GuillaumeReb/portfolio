@@ -405,7 +405,8 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #728394;
+  color: #0563bb;
+  /* color: #728394; */
 }
 
 .about .content ul {
@@ -550,7 +551,8 @@ section {
   padding: 1.5rem;
   background: rgba(255, 255, 255, 0.05);
   border-radius: 8px;
-  border-left: 4px solid #0563bb; /* Utilise couleur principale */
+  border-left: 4px solid #0563bb;
+  /* Utilise couleur principale */
   transition: all 0.3s ease;
   cursor: pointer;
 }
@@ -567,7 +569,8 @@ section {
 }
 
 .category-title {
-  color: #0563bb; /* Utilise couleur principale */
+  color: #0563bb;
+  /* Utilise couleur principale */
   font-size: 1.2rem;
   font-weight: 600;
   margin-bottom: 0.8rem;
@@ -588,11 +591,11 @@ section {
     padding: 1rem;
     margin-bottom: 1.5rem;
   }
-  
+
   .category-title {
     font-size: 1.1rem;
   }
-  
+
   .skills-list {
     font-size: 0.95rem;
   }
