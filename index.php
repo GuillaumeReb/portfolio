@@ -132,15 +132,15 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
           <div class="col-lg-8 pt-4 pt-lg-0 content">
             <h3>Développeur Web &amp; Web mobile.</h3>
             <!-- <p class="fst-italic"> -->
-            <p>
-              <!-- Bonjour, je m'appelle Guillaume et je suis développeur Web junior.
+            <p style="text-align: justify;">
+              Bonjour, je m'appelle Guillaume et je suis développeur Web junior.<br>
               Fort de ma formation et de mes compétences en développement web,
               je suis enthousiaste à l'idée de contribuer activement à des projets innovants et de mettre en
-              pratique mes connaissances dans un environnement professionnel dynamique. -->
-              Bonjour, je m'appelle Guillaume et je suis étudiant en <strong> Bachelor Développement Web & Mobile</strong>, à la recherche <strong>d'une entreprise d'accueil</strong> pour allier formation et expérience professionnelle concrète.
+              pratique mes connaissances dans un environnement professionnel dynamique.
+              <!-- Bonjour, je m'appelle Guillaume et je suis étudiant en <strong> Bachelor Développement Web & Mobile</strong>, à la recherche <strong>d'une entreprise d'accueil</strong> pour allier formation et expérience professionnelle concrète.
               <br> Passionné par le développement, j'ai une préférence pour le backend avec PHP/Symfony et les technologies server-side, tout en maîtrisant les fondamentaux frontend. 
               <br> Mon approche : créer des applications robustes et bien structurées.
-              <br> <strong>Ce qui me motive :</strong> Résoudre des problèmes techniques, découvrir de nouvelles technologies et contribuer concrètement au succès d'une équipe.
+              <br> <strong>Ce qui me motive :</strong> Résoudre des problèmes techniques, découvrir de nouvelles technologies et contribuer concrètement au succès d'une équipe. -->
             </p>
             <div class="row">
               <div class="col-lg-6">
@@ -168,18 +168,18 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 </ul>
               </div>
             </div>
-            <p>
-              <!-- Je suis à la recherche d'opportunités dans le domaine de
+            <p style="text-align: justify;">
+              Je suis à la recherche d'opportunités dans le domaine de
               l'informatique. Je suis passionné par la technologie et les systèmes
               informatiques. Je suis déterminé à changer de carrière pour me
-              diriger vers ce domaine. Mon objectif est de contribuer de manière
+              diriger vers ce domaine. <br>Mon objectif est de contribuer de manière
               proactive à des projets dynamiques, en apportant mes
               compétences techniques et ma volonté d'apprendre dans ce
               secteur en constante évolution. Je suis enthousiaste à l'idée de
               relever de nouveaux défis et de mettre en pratique mes
-              connaissances pour contribuer au succès de l'entreprise. -->
+              connaissances pour contribuer au succès de l'entreprise.
 
-              <strong>Actuellement :</strong> En dernière ligne droite pour trouver mon <strong> entreprise d'alternance </strong> et commencer cette aventure professionnelle !
+              <!-- <strong>Actuellement :</strong> En dernière ligne droite pour trouver mon <strong> entreprise d'alternance </strong> et commencer cette aventure professionnelle ! -->
               <br>
             </p>
           </div>
